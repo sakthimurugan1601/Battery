@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Battery Checker</h1>
+        <div class="battery-status">
+            <div class="battery-icon">
+                <svg width="100" height="60" viewBox="0 0 100 60">
+                    <rect x="10" y="10" width="70" height="40" fill="none" stroke="black" stroke-width="2"/>
+                    <rect x="80" y="20" width="10" height="20" fill="none" stroke="black" stroke-width="2"/>
+                    <rect id="battery-level" x="12" y="12" width="66" height="36" fill="green"/>
+                </svg>
+            </div>
+            <div class="battery-info">
+                <p id="battery-level-text">Level: 100%</p>
+                <p id="battery-status-text">Status: Charged</p>
+            </div>
+        </div>
+        <button id="check-battery">Check Battery Status</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

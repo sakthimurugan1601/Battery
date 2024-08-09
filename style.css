@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.battery-status {
+    margin: 20px 0;
+}
+
+.battery-icon {
+    margin-bottom: 10px;
+}
+
+.battery-info p {
+    margin: 5px 0;
+}
+
+#battery-level {
+    transition: width 0.5s ease-in-out;
+}
